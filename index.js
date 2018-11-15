@@ -63,13 +63,13 @@ window.addEventListener("scroll", function (event) {
 
     }
 
-    if(scroll>520)
+    if(scroll>435)
     {
-      var newScroll = (scroll-521);
+      var newScroll = (scroll-435);
       var element = document.getElementById("plx");
 
       element.classList.remove("parallax-window");
-      document.getElementById("circle").style.top = -1000+3*521+newScroll/2+"px";
+      document.getElementById("circle").style.top = -1000+3.5*435+newScroll/2+"px";
       document.getElementById("circle").style.width = 420+"px";
       document.getElementById("circle").style.height = 420+"px";
       document.getElementById("circle").style.left = widthCheck-cirWidth/2+"px";
