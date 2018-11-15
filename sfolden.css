@@ -66,10 +66,13 @@ color: #707070 !important;
 }
 .home{
   height:140vh;
+  overflow: hidden !important;
+
 
 
 
 }
+
 
 .wrapper {
   padding-top: 25px;
@@ -105,6 +108,7 @@ color: #707070 !important;
 font-family: 'Roboto', sans-serif;
   font-weight: bold;
   padding-top: 90px;
+
   padding-left: 150px;
 }
 .hole {
@@ -113,12 +117,15 @@ font-family: 'Roboto', sans-serif;
   left: -600px;
   width: 2500px;
   height: 2500px;
-  box-shadow: 0 0 0 9999px rgba(153, 255, 255, 1);
+  box-shadow: 0 0 0 9999px rgba(107 , 120, 165, 1);
   border-radius: 100%;
+  z-index: 1;
+
 }
 .filler{
 
   height:500px;
+   z-index: 99 !important;
 
 }
 .parallax {
