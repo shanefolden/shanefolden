@@ -39,6 +39,12 @@ window.addEventListener("scroll", function (event) {
       document.getElementById("circle").style.left = -600+1.92*scroll+"px";
     }
 
+    if(scroll>520)
+    {
+      var element = document.getElementById("plx");
+      element.setAttribute("data-speed", "2.0");
+    }
+
 
 
 
