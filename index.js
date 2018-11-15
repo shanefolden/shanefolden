@@ -30,10 +30,10 @@ var topmar = screenHeight-clientHeight;
 }
 window.addEventListener("scroll", function (event) {
     var scroll = this.scrollY;
-    document.getElementById("circle").style.width = 600-scroll+"px";
-    document.getElementById("circle").style.height = 600-scroll+"px";
-    document.getElementById("circle").style.top = 20+scroll+"px";
-    document.getElementById("circle").style.left = 300+scroll/2+"px";
+    document.getElementById("circle").style.width = 2500-4*scroll+"px";
+    document.getElementById("circle").style.height = 2500-4*scroll+"px";
+    document.getElementById("circle").style.top = -200+1.2*scroll+"px";
+    document.getElementById("circle").style.left = -600+1.92*scroll+"px";
 
 
 
