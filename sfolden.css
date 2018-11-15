@@ -7,7 +7,7 @@
   font-family: 'Roboto Condensed';
   letter-spacing: 3px;
   font-weight: 600;
-  padding-top: 100px;
+  padding-top:50px;
 }
 .conTitle2{
   padding-bottom: 50px;
@@ -15,12 +15,122 @@
   font-family: 'Lato', sans-serif;
 }
 .coLogos{
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
 
   margin-right: 20px;
   padding-right: 20px;
 }
+.num{
+  text-align: left;
+}
+.email{
+  text-align: left;
+}
+input::-webkit-input-placeholder {
+color: #707070 !important;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+color: #707070 !important;
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #707070 !important;
+}
+
+input:-ms-input-placeholder {
+color: #707070 !important;
+}
+textarea::-webkit-input-placeholder {
+color: #707070 !important;
+}
+
+textarea:-moz-placeholder { /* Firefox 18- */
+color: #707070 !important;
+}
+
+textarea::-moz-placeholder {  /* Firefox 19+ */
+color: #707070 !important;
+}
+
+textarea:-ms-input-placeholder {
+color: #707070 !important;
+}
+
+.setConMarg{
+  width: 60vw !important;
+  margin-left: 20vw;
+  margin-right: 20vw;
+
+}
+.home{
+
+  
+}
+
+.wrapper {
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.newbutt{
+  background-color: white !important;
+  color: black !important;
+  font-weight: bold !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+.td{
+  text-decoration: none !important;
+  margin-bottom: 40px;
+  width: 10px;
+  height: 50px;
+}
+
+.botcon{
+  font-size: 13px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.botcon2{
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+.inTitle{
+  font-size: 90px;
+font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  padding-top: 150px;
+  padding-left: 150px;
+}
+.filler{
+  height:500px;
+  background-color: green;
+}
+.parallax {
+    /* The image used */
+    background-image: url("main.jpg");
+
+    /* Set a specific height */
+    height: 400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inTitle2{
+  font-size: 60px;
+font-family: 'Roboto', sans-serif;
+  padding-bottom: 500px;
+  padding-left: 150px;
+}
+
+
 
 
 .mainBack{
@@ -28,32 +138,32 @@
 }
 
 .iglo{
-  width: 60px;
-  height: 60px;
-  margin-left: 20px;
-  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 .fblo{
-  width: 60px;
-  height: 60px;
-  margin-left: 20px;
-  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 .lilo{
-  width: 60px;
-  height: 60px;
-  margin-left: 100px;
-  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 .ghlo{
-  width: 60px;
-  height: 60px;
-  margin-left: 20px;
-  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 .ytlo{
-  width: 60px;
-  height: 60px;
-  margin-left: 20px;
-  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+  margin-left: 12px;
+  margin-right: 12px;
 }

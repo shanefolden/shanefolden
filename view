@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html  dir="ltr" lang="en-us" xml:lang="en-us">
+<head>
+    <title>PSTAT  10 - F18: CUSTOMER</title>
+    <link rel="icon" href="//gauchospace.ucsb.edu/courses/pluginfile.php/1/theme_adaptable/favicon/1541637254/favicon_circle.png" />
+
+    <link rel="stylesheet" href="https://gauchospace.ucsb.edu/courses/theme/adaptable/style/font-awesome.min.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400'
+    rel='stylesheet'
+    type='text/css'>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400'
+    rel='stylesheet'
+    type='text/css'>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400'
+    rel='stylesheet'
+    type='text/css'>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, PSTAT  10 - F18: CUSTOMER" />
+<link rel="stylesheet" type="text/css" href="https://gauchospace.ucsb.edu/courses/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://gauchospace.ucsb.edu/courses/theme/styles.php/adaptable/1541637254/all" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/gauchospace.ucsb.edu\/courses","sesskey":"k6QrlZgRZ5","loadingicon":"https:\/\/gauchospace.ucsb.edu\/courses\/theme\/image.php\/adaptable\/core\/1541637254\/i\/loading_small","themerev":"1541637254","slasharguments":1,"theme":"adaptable","jsrev":"1537547922","admin":"admin","svgicons":true};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''};if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else me.path=component+'/'+component+'.'+me.type};
+YUI_config = {"debug":false,"base":"https:\/\/gauchospace.ucsb.edu\/courses\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/gauchospace.ucsb.edu\/courses\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/gauchospace.ucsb.edu\/courses\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/gauchospace.ucsb.edu\/courses\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/gauchospace.ucsb.edu\/courses\/theme\/yui_combo.php?m\/1537547922\/","combine":true,"comboBase":"https:\/\/gauchospace.ucsb.edu\/courses\/theme\/yui_combo.php?","ext":false,"root":"m\/1537547922\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-formautosubmit":{"requires":["base","event-key"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader","moodle-core-event"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core_availability-form":{"requires":["base","node","event","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-calendar-info":{"requires":["base","node","event-mouseenter","event-key","overlay","moodle-calendar-info-skin"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-toolboxes":{"requires":["node","base","event-key","node","io","moodle-course-coursebase","moodle-course-util"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-passwordunmask":{"requires":["node","base"]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-core_message-messenger":{"requires":["escape","handlebars","io-base","moodle-core-notification-ajaxexception","moodle-core-notification-alert","moodle-core-notification-dialogue","moodle-core-notification-exception"]},"moodle-core_message-deletemessage":{"requires":["node","event"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-qtype_ddimageortext-form":{"requires":["moodle-qtype_ddimageortext-dd","form_filepicker"]},"moodle-qtype_ddimageortext-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-qtype_ddmarker-form":{"requires":["moodle-qtype_ddmarker-dd","form_filepicker","graphics","escape"]},"moodle-qtype_ddmarker-dd":{"requires":["node","event-resize","dd","dd-drop","dd-constrain","graphics"]},"moodle-qtype_ddwtos-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_oublog-tagselector":{"requires":["base","node","autocomplete","autocomplete-filters","autocomplete-highlighters"]},"moodle-mod_oublog-savecheck":{"requires":["base","node","io","panel","moodle-core-notification-alert"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-util":{"requires":["node"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-quizquestionbank":{"requires":["base","event","node","io","io-form","yui-later","moodle-question-qbankmanager","moodle-core-notification-dialogue"]},"moodle-mod_quiz-randomquestion":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_chemrender-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_fullscreen-button":{"requires":["event-resize","moodle-editor_atto-plugin"]},"moodle-atto_html-button":{"requires":["moodle-editor_atto-plugin","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_panoptobutton-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_sketchfab-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/gauchospace.ucsb.edu\/courses\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/gauchospace.ucsb.edu\/courses\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1537547922\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/gauchospace.ucsb.edu\/courses\/lib\/javascript.php\/1537547922\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/gauchospace.ucsb.edu\/courses\/lib\/javascript.php\/1537547922\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body  id="page-mod-resource-view" class="format-weeks  path-mod path-mod-resource safari dir-ltr lang-en_us yui-skin-sam yui3-skin-sam gauchospace-ucsb-edu--courses pagelayout-incourse course-32027 context-2344209 cmid-1530213 category-1613 two-column  has-region-side-post used-region-side-post side-post-only">
+
+<div class="skiplinks"><a class="skip" href="#maincontent">Skip to main content</a></div>
+<script type="text/javascript" src="https://gauchospace.ucsb.edu/courses/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js&amp;rollup/1537547922/mcore-min.js"></script><script type="text/javascript" src="https://gauchospace.ucsb.edu/courses/theme/jquery.php/core/jquery-1.12.1.min.js"></script>
+<script type="text/javascript" src="https://gauchospace.ucsb.edu/courses/theme/jquery.php/theme_adaptable/pace-min.js"></script>
+<script type="text/javascript" src="https://gauchospace.ucsb.edu/courses/theme/jquery.php/theme_adaptable/jquery-flexslider-min.js"></script>
+<script type="text/javascript" src="https://gauchospace.ucsb.edu/courses/theme/jquery.php/theme_adaptable/tickerme.js"></script>
+<script type="text/javascript" src="https://gauchospace.ucsb.edu/courses/theme/jquery.php/theme_adaptable/jquery-easing-min.js"></script>
+<script type="text/javascript" src="https://gauchospace.ucsb.edu/courses/theme/jquery.php/theme_adaptable/adaptable.js"></script>
+<script type="text/javascript" src="https://gauchospace.ucsb.edu/courses/lib/javascript.php/1537547922/lib/javascript-static.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+<div id="page" class="container-fluid   ">
+
+<div class="customalert alert alert-info fade in" role="alert"><a href="#" class="close" data-dismiss="alert" data-alertkey="Fall2018 Gradebook Trainings" data-alertindex="1" aria-label="close">&times;</a><i class="fa fa-info-circle fa-lg"></i>&nbsp;<i><b>Instructors and TAs: GauchoSpace Gradebook Workshops 11/26 12 PM and 11/29 3 PM sign up<a href="https://docs.google.com/forms/d/e/1FAIpQLSfj4Ml7UtPVNpycqgm4vPGl0IwB0K9cTRbxDc5LLunAki6EVQ/viewform?usp=sf_link">&nbsp;here</a></b></i><br>
+         </div>
+
+    <header id="page-header-wrapper">
+    <div id="above-header">
+        <div class="clearfix container userhead">
+            <div class="pull-left">
+                <ul class="usermenu2 nav navbar-nav navbar-right"></ul>            </div>
+
+            <div class="headermenu row">
+        <div class="dropdown secondone">
+            <a class="dropdown-toggle usermendrop" data-toggle="dropdown" href="#">
+<span class="fa fa-user"></span>Shane Folden                <span class="fa fa-angle-down"></span>
+            </a>
+
+    <ul class="dropdown-menu usermen" role="menu" aria-labelledby="dLabel">
+        <li>
+            <a href="https://gauchospace.ucsb.edu/courses/user/profile.php"
+                title="View profile">
+                <i class="fa fa-user"></i>
+                View profile            </a>
+        </li>
+        <li>
+            <a href="https://gauchospace.ucsb.edu/courses/user/edit.php?returnto=profile" 
+                title="Edit profile">
+                <i class="fa fa-cog"></i>
+                Edit profile            </a>
+        </li>
+        <li>
+        <a href="https://gauchospace.ucsb.edu/courses/grade/report/overview/index.php"
+            title="Grades">
+                <i class="fa fa-list-alt"></i>Grades        </a>
+        </li>
+
+
+
+
+
+
+        <li>
+        <a href="https://gauchospace.ucsb.edu/courses/login/logout.php?sesskey=k6QrlZgRZ5"
+            title="Log out">
+                <i class="fa fa-sign-out"></i>
+                Log out        </a>
+        </li>
+    </ul>
+</div>
+</div>
+
+<div style="float: right; position: relative; display: inline; margin-left: 15px; height:20px;">
+</div>
+
+<div class="dropdown pull-right newmenus newmenu5"><ul class="nav"><li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" title="UCSB">UCSB</a><ul class="dropdown-menu"><li><a title="UCSB Home" href="http://www.ucsb.edu/" target="_blank">UCSB Home</a></li><li><a title="GOLD" href="https://my.sa.ucsb.edu/gold/Login.aspx" target="_blank">GOLD</a></li><li><a title="U-Mail" href="http://www.umail.ucsb.edu/" target="_blank">U-Mail</a></li><li><a title="BARC" href="https://mybarc.ucsb.edu/SIWeb/login.jsp" target="_blank">BARC</a></li></ul></ul></div>    </div>
+</div>
+<div id="page-header" class="clearfix container">
+
+
+<div id="titlecontainer" class="pull-left"><div id="coursetitle">PSTAT  10 - DATA SCIENCE COMP - Fall 2018</div></div>
+
+
+
+        <div id="course-header">
+                    </div>
+    </div>
+
+    <div id="navwrap">
+        <div class="container">
+            <div class="navbar">
+                <nav role="navigation" class="navbar-inner">
+                    <div class="container-fluid">
+                        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+                        <div class="nav-collapse collapse ">
+                            <ul class="nav"><li><a title="" href="https://gauchospace.ucsb.edu/courses/"><i class="fa fa-home"></i> Home</a></li><li class="dropdown"><a href="https://gauchospace.ucsb.edu/courses/my/index.php" class="dropdown-toggle" data-toggle="dropdown" title=""><i class="fa fa-briefcase"></i>My Courses</a><ul class="dropdown-menu"><li><a title="" href="https://gauchospace.ucsb.edu/courses/course/view.php?id=32027">PSTAT  10 - DATA SCIENCE COMP - ...</a></li><li><a title="" href="https://gauchospace.ucsb.edu/courses/course/view.php?id=30575">MUS  11 - FUNDAMENTALS OF MUS - ...</a></li><li><a title="" href="https://gauchospace.ucsb.edu/courses/course/view.php?id=31883">MATH   4A - LIN ALG W/APPS - Fal...</a></li><li><a title="" href="https://gauchospace.ucsb.edu/courses/course/view.php?id=31403">CMPSC  24 - PROBLEM SOLVING II -...</a></li></ul><li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" title=""><i class="fa fa-sitemap"></i><span class="menutitle">This course</span></a><ul class="dropdown-menu"><li><a title="" href="https://gauchospace.ucsb.edu/courses/user/index.php?id=32027"><i class="fa fa-users"></i>People</a></li><li><a title="" href="https://gauchospace.ucsb.edu/courses/grade/report/index.php?id=32027"><img class="icon" alt="" src="https://gauchospace.ucsb.edu/courses/theme/image.php/adaptable/core/1541637254/i/grades" />Grades</a></li><li><a href="https://gauchospace.ucsb.edu/courses/mod/forum/index.php?id=32027"><img src="https://gauchospace.ucsb.edu/courses/theme/image.php/adaptable/forum/1541637254/icon" class="icon" alt="" />Forums</a></li><li><a href="https://gauchospace.ucsb.edu/courses/course/resources.php?id=32027"><img class="icon" alt="" src="https://gauchospace.ucsb.edu/courses/theme/image.php/adaptable/mod_page/1541637254/icon" />Resources</a></li></ul></ul><ul class="nav"><li class="dropdown"><a href="#cm_submenu_4" class="dropdown-toggle" data-toggle="dropdown" title="About">About</a><ul class="dropdown-menu"><li><a title="Overview" href="https://ucsbcollabsupport.zendesk.com/hc/en-us/articles/203131690" target="_blank">Overview</a></li><li><a title="Roadmap and Recent Updates" href="https://ucsbcollabsupport.zendesk.com/hc/en-us/articles/209977277" target="_blank">Roadmap and Recent Updates</a></li><li><a title="Service Description" href="https://ucsbcollabsupport.zendesk.com/hc/en-us/articles/209048737" target="_blank">Service Description</a></li></ul><li class="dropdown"><a href="#cm_submenu_5" class="dropdown-toggle" data-toggle="dropdown" title="Courses">Courses</a><ul class="dropdown-menu"><li><a title=" Fall 2018" href="https://gauchospace.ucsb.edu/courses/course/index.php?categoryid=1439"> Fall 2018</a></li><li><a title=" Summer 2018" href="https://gauchospace.ucsb.edu/courses/course/index.php?categoryid=1250"> Summer 2018</a></li><li><a title=" Project Sites" href="https://gauchospace.ucsb.edu/courses/course/index.php?categoryid=9"> Project Sites</a></li><li><a title=" Others" href="https://gauchospace.ucsb.edu/courses/course/index.php"> Others</a></li><li class="dropdown-submenu"><a href="#cm_submenu_6" class="dropdown-toggle" data-toggle="dropdown" title=" Archives"> Archives</a><ul class="dropdown-menu"><li><a title="Fall 2013 - Spring 2015" href="https://archive.gauchospace.ucsb.edu/gs20132015/">Fall 2013 - Spring 2015</a></li><li><a title="Fall 2011 - Summer 2013" href="https://archive.gauchospace.ucsb.edu/gs20112013/thearchive2/">Fall 2011 - Summer 2013</a></li></ul></ul><li class="dropdown"><a href="#cm_submenu_7" class="dropdown-toggle" data-toggle="dropdown" title="Help">Help</a><ul class="dropdown-menu"><li><a title=" Help Center" href="https://ucsbcollabsupport.zendesk.com/hc/en-us/categories/200007714-GauchoSpace" target="_blank"> Help Center</a></li><li><a title=" Training" href="https://ucsbcollabsupport.zendesk.com/hc/en-us/articles/202535614" target="_blank"> Training</a></li><li><a title="Drop-in Hours" href="http://collaborate.ucsb.edu/services/faculty-support" target="_blank">Drop-in Hours</a></li></ul></ul>
+        <ul class="nav pull-right">
+            <li class="hbll">
+                <a href="#" class="moodlewidth" title="Full screen">
+                <i class="fa fa-expand fa-lg"></i>
+                <span class="zoomdesc">Full screen</span>
+            </a>
+        </li>
+        <li class="sbll">
+                <a href="#" class="moodlewidth" title="Standard view">
+                    <i class="fa fa-compress fa-lg"></i>
+                <span class="zoomdesc">Standard view</span>
+            </a>
+            </li>
+        </ul>
+                            <div id="edittingbutton" class="pull-right breadcrumb-button">
+                                                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<div class="container outercont">
+    <div id="page-content" class="row-fluid">
+        <div id="page-navbar" class="span12 original"><ul class="breadcrumb original"><li class="firstli"><a href="https://gauchospace.ucsb.edu/courses/"><i class="fa fa-home"></i></a><i class="spnlink"><i class="arrow-top"></i><i class="arrow-bottom"></i></i></li><li><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" title="PSTAT  10 - DATA SCIENCE COMP - Fall 2018" href="https://gauchospace.ucsb.edu/courses/course/view.php?id=32027"><span itemprop="title">PSTAT  10 - F18</span></a></span><i class="spnlink"><i class="arrow-top"></i><i class="arrow-bottom"></i></i></li><li><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="https://gauchospace.ucsb.edu/courses/course/view.php?id=32027#section-7"><span itemprop="title"> November 12 - November 18</span></a></span><i class="spnlink"><i class="arrow-top"></i><i class="arrow-bottom"></i></i></li><li class="lastli"><a href="https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=1530213" id="action_link5bed17ee93fd818">CUSTOMER</a><i class="spnlink"></i></li></ul></div>        <!-- UCSB - added user-profile padding fix -->
+                <!-- UCSB - end added user-profile padding fix -->
+<section id="region-main" class="span9"><span class="notifications" id="user-notifications"></span><div role="main"><span id="maincontent"></span><h2>CUSTOMER</h2><div class="resourceworkaround">Click <a href="https://gauchospace.ucsb.edu/courses/pluginfile.php/2344209/mod_resource/content/0/CUSTOMER.txt" onclick="this.target='_blank'">CUSTOMER.txt</a> link to view the file.</div></div>    </section>
+
+<aside id="block-region-side-post" class="span3 block-region" data-blockregion="side-post" data-droptarget="1"><a class="skip skip-block" id="fsb-1" href="#sb-1">Skip Administration</a><div id="inst6" class="block_settings  block" role="navigation" data-block="settings" data-instanceid="6" aria-labelledby="instance-6-header"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-6-header">Administration</h2></div></div><div class="content"><div id="settingsnav" class="box block_tree_box"><ul class="block_tree list" role="tree" data-ajax-loader="block_navigation/site_admin_loader"><li class="type_course depth_1 contains_branch" tabindex="-1" aria-labelledby="label_1_1"><p class="tree_item root_node tree_item branch" role="treeitem" aria-expanded="false" aria-owns="random5bed17ee93fd814_group"><span tabindex="0">Course administration</span></p><ul id="random5bed17ee93fd814_group" role="group" aria-hidden="true"><li class="type_setting depth_2 item_with_icon" tabindex="-1" aria-labelledby="label_2_1"><p class="tree_item hasicon tree_item leaf" role="treeitem"><a href="https://gauchospace.ucsb.edu/courses/grade/report/index.php?id=32027"><img class="smallicon navicon" alt="" src="https://gauchospace.ucsb.edu/courses/theme/image.php/adaptable/core/1541637254/i/grades" />Grades</a></p></li></ul></li></ul></div></div></div><span class="skip-block-to" id="sb-1"></span></aside>
+    </div>
+    </div>
+
+    <footer id="page-footer">
+<div id="course-footer"></div>
+                <div class="container blockplace1"><div class="row-fluid"><div class="left-col span6"><h3 title=""></h3><p style="text-align: left;"><a href="http://www.ucsb.edu/"><img src="https://gauchospace.ucsb.edu/courses/theme/adaptable/pix/ucsb-wordmark-gold.png" alt="UCSB logo" style="vertical-align: text-bottom; margin-top: 0px; margin-bottom: 0px;" width="230" height="25"></a>&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; <a href="https://moodle.org/"><img src="https://gauchospace.ucsb.edu/courses/pix/moodlelogo.png" alt="moodle" style="vertical-align: text-bottom; margin-top: 0px; margin-bottom: 0px;" class="img-responsive" width="98" height="25"></a></p>
+         
+         </div><div class="left-col span6"><h3 title=""></h3><div style="text-align: left;">Copyright © 2017 The Regents of the University of California, All Rights Reserved</div>
+<div style="text-align: left;"><a href="http://www.policy.ucsb.edu/terms_of_use/" target="_blank">Terms of Use</a> / <a href="http://www.policy.ucsb.edu/privacy-notification/" target="_blank">Privacy Notification</a> / <a href="http://www.collaborate.ucsb.edu/accessibility" target="_blank">Accessibility</a></div>
+         
+         </div></div></div>    <div class="info container2 clearfix">
+        <div class="container">
+            <div class="row-fluid">
+                <div class="span4">
+<p>Last Modified September 21, 2018 / Questions or concerns? Please <a href="https://help.lsit.ucsb.edu/hc/en-us/requests/new">contact us.</a></p>                </div>
+
+                <div class="span4 helplink">
+                </div>
+                <div class="span4">
+                                    </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+<a class="back-to-top" href="#top" ><i class="fa fa-angle-up "></i></a>
+    
+   
+            <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-125669104-2', {'siteSpeedSampleRate': 50});
+            ga('send', {'hitType' : 'pageview',
+            'page' : '/FALL+2018/Statistics+%26+Applied+Probability/PSTAT++10+-+DATA+SCIENCE+COMP+-+Fall+2018/resource/CUSTOMER',
+            'title' : 'PSTAT  10 - DATA SCIENCE COMP - Fall 2018'
+            });
+			
+            </script>
+			<script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'https://gauchospace.ucsb.edu/courses/lib/requirejs.php/1537547922/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://gauchospace.ucsb.edu/courses/lib/javascript.php/1537547922/lib/jquery/jquery-1.12.1.min',
+        jqueryui: 'https://gauchospace.ucsb.edu/courses/lib/javascript.php/1537547922/lib/jquery/ui-1.11.4/jquery-ui.min',
+        jqueryprivate: 'https://gauchospace.ucsb.edu/courses/lib/javascript.php/1537547922/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="https://gauchospace.ucsb.edu/courses/lib/javascript.php/1537547922/lib/requirejs/require.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+require(['core/first'], function() {
+;
+require(["block_settings/settingsblock"], function(amd) { amd.init("6", null); });;
+require(["core/log"], function(amd) { amd.setConfig({"level":"warn"}); });
+});
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+M.yui.add_module({"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/mathjax\/2.6.1\/MathJax.js?delayStartupUntil=configured"}});
+
+//]]>
+</script>
+<script type="text/javascript" src="https://gauchospace.ucsb.edu/courses/theme/javascript.php/adaptable/1541637254/footer"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","yes":"Yes","no":"No","morehelp":"More help","loadinghelp":"Loading...","cancel":"Cancel","ok":"OK","confirm":"Confirm","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error","changesmadereallygoaway":"You have made changes. Are you sure you want to navigate away and lose your changes?"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} alias\/shortcut files that use this file as their source","select":"Select"},"admin":{"confirmdeletecomments":"You are about to delete comments, are you sure?","confirmation":"Confirmation"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {M.util.load_flowplayer();
+setTimeout("fix_column_widths()", 20);
+Y.use("moodle-theme_adaptable-zoom",function() {M.theme_adaptable.zoom.init();
+});
+Y.use("moodle-theme_adaptable-full",function() {M.theme_adaptable.full.init();
+});
+function legacy_activity_onclick_handler_1(e) { e.halt(); window.open('https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=1652616&redirect=1'); return false; };
+function legacy_activity_onclick_handler_2(e) { e.halt(); window.open('https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=1652619&redirect=1'); return false; };
+function legacy_activity_onclick_handler_3(e) { e.halt(); window.open('https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=1652832&redirect=1'); return false; };
+function legacy_activity_onclick_handler_4(e) { e.halt(); window.open('https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=1652955&redirect=1'); return false; };
+function legacy_activity_onclick_handler_5(e) { e.halt(); window.open('https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=1652727&redirect=1'); return false; };
+function legacy_activity_onclick_handler_6(e) { e.halt(); window.open('https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=1530213&redirect=1'); return false; };
+function legacy_activity_onclick_handler_7(e) { e.halt(); window.open('https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=1530216&redirect=1'); return false; };
+function legacy_activity_onclick_handler_8(e) { e.halt(); window.open('https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=1530219&redirect=1'); return false; };
+function legacy_activity_onclick_handler_9(e) { e.halt(); window.open('https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=1530222&redirect=1'); return false; };
+function legacy_activity_onclick_handler_10(e) { e.halt(); window.open('https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=1530225&redirect=1'); return false; };
+function legacy_activity_onclick_handler_11(e) { e.halt(); window.open('https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=1652730&redirect=1'); return false; };
+function legacy_activity_onclick_handler_12(e) { e.halt(); window.open('https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=1530231&redirect=1'); return false; };
+function legacy_activity_onclick_handler_13(e) { e.halt(); window.open('https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=1530252&redirect=1'); return false; };
+M.util.help_popups.setup(Y);
+Y.use("moodle-core-popuphelp",function() {M.core.init_popuphelp();
+});
+M.util.init_skiplink(Y);
+M.util.init_block_hider(Y, {"id":"inst6","title":"Administration","preference":"block6hidden","tooltipVisible":"Hide Administration block","tooltipHidden":"Show Administration block"});
+Y.use("moodle-filter_glossary-autolinker",function() {M.filter_glossary.init_filter_autolinking({"courseid":0});
+});
+Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\r\n    config: [\"Accessible.js\", \"Safe.js\"],\r\n    errorSettings: { message: [\"!\"] },\r\n    skipStartupTypeset: true,\r\n    messageStyle: \"none\"\r\n});\r\n","lang":"en"});
+});
+ M.util.js_pending('random5bed17ee93fd820'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random5bed17ee93fd820'); });
+Y.on('click', legacy_activity_onclick_handler_6, "#action_link5bed17ee93fd818", null);
+})();
+//]]>
+</script>
+
+</div>
+<!-- Start of ucsbcollabsupport Zendesk Widget script -->
+<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=bcbffe6c-ee96-4060-b47a-f0650406f5ec"> </script>
+<!-- End of ucsbcollabsupport Zendesk Widget script -->
+
+
+<!-- Start of login form field placeholder script -->
+<script>
+jQuery(document).ready(function($) {
+    $("#above-header input[name='username']").attr('placeholder', 'UCSBNetID');
+});
+</script>
+<!-- End of login form field placeholder script -->
+<script>
+jQuery(document).ready(function($) {
+    // Close the usertour when the background is clicked.
+    $(document).on('click', '.tour-backdrop', function(){
+            $('.tour-backdrop').hide();
+            $('*[data-role="end"]').click();
+    });
+ });
+</script></body>
+</html>
