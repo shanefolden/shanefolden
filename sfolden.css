@@ -65,7 +65,7 @@ color: #707070 !important;
 
 }
 .home{
-  height:100vh;
+  height:140vh;
 
 
 
@@ -109,16 +109,17 @@ font-family: 'Roboto', sans-serif;
 }
 .hole {
   position: absolute;
-  top: -200px;
+  top: -500px;
   left: -600px;
   width: 2500px;
   height: 2500px;
-  box-shadow: 0 0 0 9999px rgba(153, 255, 255, .4);
+  box-shadow: 0 0 0 9999px rgba(153, 255, 255, 1);
   border-radius: 100%;
 }
 .filler{
+
   height:500px;
-  opacity: 100%;
+
 }
 .parallax {
     /* The image used */
