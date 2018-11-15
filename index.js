@@ -23,18 +23,18 @@ function fixPad(){
   var screenHeight = window.innerHeight;
   var clientHeight = document.getElementById('adder').clientHeight;
 
+var topmar = screenHeight-clientHeight;
 
-
-
-
-
-
-  var topmar = screenHeight-clientHeight;
-  //console.log(divHeights +" divheights")
-  //console.log(topmar+" calculated margin")
-  //console.log(screenHeight+" screen height")
-
-  //document.getElementById("jsgod").style.marginTop = topmar+"px";
   //console.log(document.getElementById("jsgod").style.marginTop)
 
 }
+window.addEventListener("scroll", function (event) {
+    var scroll = this.scrollY;
+    document.getElementById("circle").style.width = 600-scroll+"px";
+    document.getElementById("circle").style.height = 600-scroll+"px";
+    document.getElementById("circle").style.top = 20+scroll+"px";
+    document.getElementById("circle").style.left = 300+scroll/2+"px";
+
+
+
+});

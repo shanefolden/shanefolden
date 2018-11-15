@@ -106,6 +106,15 @@ font-family: 'Roboto', sans-serif;
   padding-top: 90px;
   padding-left: 150px;
 }
+.hole {
+  position: absolute;
+  top: 20px;
+  left: 300px;
+  width: 600px;
+  height: 600px;
+  box-shadow: 0 0 0 9999px rgba(0, 0, 255, 0.2);
+  border-radius: 100%;
+}
 .filler{
   height:500px;
   background-color: green;
