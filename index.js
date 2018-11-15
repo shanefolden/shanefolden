@@ -16,4 +16,25 @@ function setPhoto()
 }
 
 
-//$('.home').parallax({imageSrc: 'main.jpg'});
+fixPad();
+function fixPad(){
+
+
+  var screenHeight = window.innerHeight;
+  var clientHeight = document.getElementById('adder').clientHeight;
+
+
+
+
+
+
+
+  var topmar = screenHeight-clientHeight;
+  //console.log(divHeights +" divheights")
+  //console.log(topmar+" calculated margin")
+  //console.log(screenHeight+" screen height")
+
+  //document.getElementById("jsgod").style.marginTop = topmar+"px";
+  //console.log(document.getElementById("jsgod").style.marginTop)
+
+}
