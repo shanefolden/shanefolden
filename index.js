@@ -44,13 +44,23 @@ window.addEventListener("scroll", function (event) {
     var screenWidth = window.innerWidth;
     var widthCheck = screenWidth/2
     var cirWidth = parseInt( $("#circle").css("width"));
-    if(scroll<520)
+    if(scroll<400)
     {
-      document.getElementById("circle").style.width = 2500-4*scroll+"px";
-      document.getElementById("circle").style.height = 2500-4*scroll+"px";
-      document.getElementById("circle").style.top = -200+1.45*scroll+"px";
+      document.getElementById("circle").style.width = 2500-5*scroll+"px";
+      document.getElementById("circle").style.height = 2500-5*scroll+"px";
+      document.getElementById("circle").style.top = -1000+3.5*scroll+"px";
 
       document.getElementById("circle").style.left = widthCheck-cirWidth/2+"px";
+    }
+    else if(scroll <435)
+    {
+      var newscroll = scroll-400;
+      document.getElementById("circle").style.width = 500-3*newscroll+"px";
+      document.getElementById("circle").style.height = 500-3*newscroll+"px";
+      document.getElementById("circle").style.top = -1000+3.5*scroll+"px";
+
+      document.getElementById("circle").style.left = widthCheck-cirWidth/2+"px";
+
     }
 
     if(scroll>520)
@@ -59,7 +69,7 @@ window.addEventListener("scroll", function (event) {
       var element = document.getElementById("plx");
 
       element.classList.remove("parallax-window");
-      document.getElementById("circle").style.top = -200+1.45*521+newScroll/2+"px";
+      document.getElementById("circle").style.top = -1000+3*521+newScroll/2+"px";
       document.getElementById("circle").style.width = 420+"px";
       document.getElementById("circle").style.height = 420+"px";
       document.getElementById("circle").style.left = widthCheck-cirWidth/2+"px";
@@ -72,7 +82,7 @@ window.addEventListener("scroll", function (event) {
       document.getElementById("circle").style.top = -500+"px";
 
       document.getElementById("circle").style.left = widthCheck-cirWidth/2+"px";
-  
+
     }
 
     console.log(scroll);
