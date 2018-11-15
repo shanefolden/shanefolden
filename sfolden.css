@@ -67,12 +67,13 @@ color: #707070 !important;
 .home{
   height:140vh;
   overflow: hidden !important;
-
-
-
-
+  /* background: url("main.jpg")  top center ;
+  background-size:cover; */
 }
 
+.inmess{
+  padding-top: 90px;
+}
 
 .wrapper {
   padding-top: 25px;
@@ -125,6 +126,7 @@ font-family: 'Roboto', sans-serif;
 .filler{
 
   height:500px;
+  position: relative;
    z-index: 99 !important;
 
 }

@@ -49,7 +49,7 @@ window.addEventListener("scroll", function (event) {
       document.getElementById("circle").style.width = 2500-4*scroll+"px";
       document.getElementById("circle").style.height = 2500-4*scroll+"px";
       document.getElementById("circle").style.top = -200+1.45*scroll+"px";
-      
+
       document.getElementById("circle").style.left = widthCheck-cirWidth/2+"px";
     }
 
@@ -65,8 +65,17 @@ window.addEventListener("scroll", function (event) {
       document.getElementById("circle").style.left = widthCheck-cirWidth/2+"px";
 
     }
+    if(scroll==0)
+    {
+      document.getElementById("circle").style.width = 2500+"px";
+      document.getElementById("circle").style.height = 2500+"px";
+      document.getElementById("circle").style.top = -500+"px";
 
+      document.getElementById("circle").style.left = widthCheck-cirWidth/2+"px";
+  
+    }
 
+    console.log(scroll);
 
 
 
