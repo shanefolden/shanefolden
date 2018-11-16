@@ -72,8 +72,17 @@ color: #707070 !important;
 .there{
 
     display: block;
+
     text-align: center !important;
 }
+.there2{
+
+    display: block;
+    z-index: 1000 !important;
+    text-align: center !important;
+}
+
+
 .home{
   height:140vh;
   overflow: hidden !important;
@@ -138,7 +147,7 @@ font-family: 'Roboto', sans-serif;
 }
 .filler{
 
-  height:200px;
+  height:75px;
   position: relative;
    z-index: 0 !important;
    background-color: #a56b78;

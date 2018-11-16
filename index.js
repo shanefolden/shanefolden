@@ -82,7 +82,7 @@ window.addEventListener("scroll", function (event) {
         document.getElementById("plx").classList.add("classAdder")
         document.getElementById("heckers").classList.add("there")
 
-        document.getElementById("circle").style.top = 522.5+(530-435)+"px";
+        document.getElementById("circle").style.top = 522.5+(520-435)+"px";
         document.getElementById("circle").style.width = 420+"px";
         document.getElementById("circle").style.height = 420+"px";
         document.getElementById("circle").style.left = widthCheck-cirWidth/2+"px";
