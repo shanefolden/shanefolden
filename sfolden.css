@@ -64,13 +64,26 @@ color: #707070 !important;
   margin-right: 20vw;
 
 }
+.gone{
+  display: none;
+
+    text-align: center !important;
+}
+.there{
+
+    display: block;
+    text-align: center !important;
+}
 .home{
   height:140vh;
   overflow: hidden !important;
+
   /* background: url("main.jpg")  top center ;
   background-size:cover; */
 }
-
+.classAdder{
+background-color: #a56b78;
+}
 .inmess{
   padding-top: 90px;
 }
@@ -131,6 +144,14 @@ font-family: 'Roboto', sans-serif;
    background-color: #6b78a5
 
 }
+
+.nextColor{
+  height:500px;
+  position: relative;
+   z-index: 99 !important;
+   background-color: #a56b78;
+
+}
 .parallax {
     /* The image used */
     background-image: url("main.jpg");
@@ -150,6 +171,7 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Roboto', sans-serif;
 
   padding-left: 150px;
+  padding-bottom: 480px;
 }
 
 

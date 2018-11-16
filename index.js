@@ -74,20 +74,25 @@ window.addEventListener("scroll", function (event) {
       document.getElementById("circle").style.height = 420+"px";
       document.getElementById("circle").style.left = widthCheck-cirWidth/2+"px";
 
+
+    }
+    if(scroll>530)
+    {
+        document.getElementById("plx").classList.add("classAdder")
+        document.getElementById("heckers").classList.add("there")
+    }
+
+    if(scroll<530)
+    {
+      document.getElementById("plx").classList.remove("classAdder")
+      document.getElementById("heckers").classList.remove("there")
     }
     if(scroll==0)
     {
       document.getElementById("circle").style.width = 2500+"px";
       document.getElementById("circle").style.height = 2500+"px";
       document.getElementById("circle").style.top = -1500+"px";
-
       document.getElementById("circle").style.left = -600+"px";
 
     }
-
-    console.log(scroll);
-
-
-
-
 });
