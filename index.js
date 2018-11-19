@@ -55,7 +55,7 @@ window.addEventListener("scroll", function (event) {
 
     var scroll = this.scrollY;
     var screenWidth2 = window.innerWidth;
-    var widthCheck2 = screenWidth/2
+    var widthCheck2 = screenWidth2/2
     var cirWidth2 = parseInt( $("#circle").css("width"));
     if(scroll<400)
     {
@@ -109,10 +109,13 @@ window.addEventListener("scroll", function (event) {
     }
     if(scroll==0)
     {
+      var screenWidth3 = window.innerWidth;
+      var widthCheck3 = screenWidth3/2
+      var cirWidth3 = parseInt( $("#circle").css("width"));
       document.getElementById("circle").style.width = 2500+"px";
       document.getElementById("circle").style.height = 2500+"px";
-      document.getElementById("circle").style.top = -1500+"px";
-      document.getElementById("circle").style.left = widthCheck2-cirWidth2/2+"px";
+      document.getElementById("circle").style.top = -1000+"px";
+      document.getElementById("circle").style.left = widthCheck3-cirWidth3/2+"px";
 
     }
 });
