@@ -50,6 +50,7 @@ window.addEventListener("resize", function (event) {
 });
 
 window.addEventListener("scroll", function (event) {
+  console.log("this is it chief")
 
 
     var scroll = this.scrollY;
