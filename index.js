@@ -29,10 +29,6 @@ var topmar = screenHeight-clientHeight;
 
 }
 
-
-
-
-
   var screenWidth = window.innerWidth;
   var widthCheck = screenWidth/2
   var cirWidth = parseInt( $("#circle").css("width"));

@@ -136,7 +136,7 @@ font-family: 'Roboto', sans-serif;
 }
 .hole {
   position: absolute;
-  top: -1500px;
+  top: -1000px;
   left: -600px;
   width: 2500px;
   height: 2500px;
