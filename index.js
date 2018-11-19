@@ -37,6 +37,8 @@ window.addEventListener("resize", function (event) {
 
 });
 
+
+
 var runOnce = false;
 if(!runOnce)
 {
@@ -47,8 +49,14 @@ if(!runOnce)
   runOnce = true;
 }
 
+window.addEventListener("resize", function (event) {
+  var screenWidth = window.innerWidth;
+  var widthCheck = screenWidth/2
+  var cirWidth = parseInt( $("#circle").css("width"));
+  document.getElementById("circle").style.left = widthCheck-cirWidth/2+"px";
+  runOnce = true;
 
-
+});
 
 window.addEventListener("scroll", function (event) {
 
