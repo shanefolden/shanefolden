@@ -37,20 +37,27 @@ window.addEventListener("resize", function (event) {
 
 });
 
+
+
+var screenWidth = window.innerWidth;
+var widthCheck = screenWidth/2
+document.getElementById("circle").style.left = widthCheck-cirWidth/2+"px";
+
+
 window.addEventListener("scroll", function (event) {
 
 
     var scroll = this.scrollY;
-    var screenWidth = window.innerWidth;
-    var widthCheck = screenWidth/2
-    var cirWidth = parseInt( $("#circle").css("width"));
+    var screenWidth2 = window.innerWidth;
+    var widthCheck2 = screenWidth/2
+    var cirWidth2 = parseInt( $("#circle").css("width"));
     if(scroll<400)
     {
       document.getElementById("circle").style.width = 2500-5*scroll+"px";
       document.getElementById("circle").style.height = 2500-5*scroll+"px";
       document.getElementById("circle").style.top = -1000+3.5*scroll+"px";
 
-      document.getElementById("circle").style.left = widthCheck-cirWidth/2+"px";
+      document.getElementById("circle").style.left = widthCheck2-cirWidth2/2+"px";
     }
     else if(scroll <435)
     {
