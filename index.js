@@ -40,7 +40,7 @@ var topmar = screenHeight-clientHeight;
 
 
 window.addEventListener("resize", function (event) {
-  console.log("weve resized chief")
+
   screenWidth = window.innerWidth;
   widthCheck = screenWidth/2
   cirWidth = parseInt( $("#circle").css("width"));
@@ -50,7 +50,7 @@ window.addEventListener("resize", function (event) {
 });
 
 window.addEventListener("scroll", function (event) {
-  console.log("this is it chief")
+
 
 
     var scroll = this.scrollY;
@@ -109,7 +109,7 @@ window.addEventListener("scroll", function (event) {
     }
     if(scroll==0)
     {
-      console.log("this is it chief pt 97");
+  
       var screenWidth3 = window.innerWidth;
       var widthCheck3 = screenWidth3/2
       var cirWidth3 = parseInt( $("#circle").css("width"));
