@@ -109,6 +109,7 @@ window.addEventListener("scroll", function (event) {
     }
     if(scroll==0)
     {
+      console.log("this is it chief pt 97");
       var screenWidth3 = window.innerWidth;
       var widthCheck3 = screenWidth3/2
       var cirWidth3 = parseInt( $("#circle").css("width"));
