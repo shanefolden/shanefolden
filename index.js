@@ -29,32 +29,27 @@ var topmar = screenHeight-clientHeight;
 
 }
 
-window.addEventListener("resize", function (event) {
+
+
+
+
   var screenWidth = window.innerWidth;
   var widthCheck = screenWidth/2
   var cirWidth = parseInt( $("#circle").css("width"));
   document.getElementById("circle").style.left = widthCheck-cirWidth/2+"px";
 
-});
 
 
 
-var runOnce = false;
-if(!runOnce)
-{
-  var screenWidth = window.innerWidth;
-  var widthCheck = screenWidth/2
-  var cirWidth = parseInt( $("#circle").css("width"));
-  document.getElementById("circle").style.left = widthCheck-cirWidth/2+"px";
-  runOnce = true;
-}
+
 
 window.addEventListener("resize", function (event) {
-  var screenWidth = window.innerWidth;
-  var widthCheck = screenWidth/2
-  var cirWidth = parseInt( $("#circle").css("width"));
+  console.log("weve resized chief")
+  screenWidth = window.innerWidth;
+  widthCheck = screenWidth/2
+  cirWidth = parseInt( $("#circle").css("width"));
   document.getElementById("circle").style.left = widthCheck-cirWidth/2+"px";
-  runOnce = true;
+
 
 });
 
