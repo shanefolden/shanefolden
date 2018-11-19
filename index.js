@@ -37,11 +37,17 @@ window.addEventListener("resize", function (event) {
 
 });
 
+var runOnce = false;
+if(!runOnce)
+{
+  var screenWidth = window.innerWidth;
+  var widthCheck = screenWidth/2
+  var cirWidth = parseInt( $("#circle").css("width"));
+  document.getElementById("circle").style.left = widthCheck-cirWidth/2+"px";
+  runOnce = true;
+}
 
 
-var screenWidth = window.innerWidth;
-var widthCheck = screenWidth/2
-document.getElementById("circle").style.left = widthCheck-cirWidth/2+"px";
 
 
 window.addEventListener("scroll", function (event) {
@@ -66,7 +72,7 @@ window.addEventListener("scroll", function (event) {
       document.getElementById("circle").style.height = 500-3*newscroll+"px";
       document.getElementById("circle").style.top = -1000+3.5*scroll+"px";
 
-      document.getElementById("circle").style.left = widthCheck-cirWidth/2+"px";
+      document.getElementById("circle").style.left = widthCheck2-cirWidth2/2+"px";
 
     }
 
@@ -79,7 +85,7 @@ window.addEventListener("scroll", function (event) {
       document.getElementById("circle").style.top = -1000+3.5*435+newScroll/2+"px";
       document.getElementById("circle").style.width = 420+"px";
       document.getElementById("circle").style.height = 420+"px";
-      document.getElementById("circle").style.left = widthCheck-cirWidth/2+"px";
+      document.getElementById("circle").style.left = widthCheck2-cirWidth2/2+"px";
 
 
     }
@@ -92,7 +98,7 @@ window.addEventListener("scroll", function (event) {
         document.getElementById("circle").style.top = 522.5+(520-435)+"px";
         document.getElementById("circle").style.width = 420+"px";
         document.getElementById("circle").style.height = 420+"px";
-        document.getElementById("circle").style.left = widthCheck-cirWidth/2+"px";
+        document.getElementById("circle").style.left = widthCheck2-cirWidth2/2+"px";
 
     }
 
