@@ -1,11 +1,5 @@
 setPhoto();
-setPhoto();
-setPhoto();
-setPhoto();
-setPhoto();
-setPhoto();
-setPhoto();
-setPhoto();
+
 
 function setPhoto()
 {
@@ -102,8 +96,7 @@ window.addEventListener("scroll", function (event) {
 
         document.getElementById("circle").style.top = 522.5+(520-435)+"px";
         document.getElementById("circle").style.width = 420+"px";
-            document.getElementById("circle").style.height = 420+"px";
-
+        document.getElementById("circle").style.height = 420+"px";
 
     }
 

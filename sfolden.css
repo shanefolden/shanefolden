@@ -28,34 +28,34 @@
   text-align: left;
 }
 input::-webkit-input-placeholder {
-color: #707070 !important;
+  color: #707070 !important;
 }
 
 input:-moz-placeholder { /* Firefox 18- */
-color: #707070 !important;
+  color: #707070 !important;
 }
 
 input::-moz-placeholder {  /* Firefox 19+ */
-color: #707070 !important;
+  color: #707070 !important;
 }
 
 input:-ms-input-placeholder {
-color: #707070 !important;
+  color: #707070 !important;
 }
 textarea::-webkit-input-placeholder {
-color: #707070 !important;
+  color: #707070 !important;
 }
 
 textarea:-moz-placeholder { /* Firefox 18- */
-color: #707070 !important;
+  color: #707070 !important;
 }
 
 textarea::-moz-placeholder {  /* Firefox 19+ */
-color: #707070 !important;
+  color: #707070 !important;
 }
 
 textarea:-ms-input-placeholder {
-color: #707070 !important;
+  color: #707070 !important;
 }
 
 .setConMarg{
@@ -67,19 +67,19 @@ color: #707070 !important;
 .gone{
   display: none;
 
-    text-align: center !important;
+  text-align: center !important;
 }
 .there{
 
-    display: block;
+  display: block;
 
-    text-align: center !important;
+  text-align: center !important;
 }
 .there2{
 
-    display: block;
-    z-index: 1000 !important;
-    text-align: center !important;
+  display: block;
+  z-index: 1000 !important;
+  text-align: center !important;
 }
 
 
@@ -91,7 +91,7 @@ color: #707070 !important;
   background-size:cover; */
 }
 .classAdder{
-background-color: #a56b78;
+  background-color: #a56b78;
 }
 .inmess{
   padding-top: 90px;
@@ -128,7 +128,7 @@ background-color: #a56b78;
 }
 .inTitle{
   font-size: 90px;
-font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   padding-top: 90px;
 
@@ -145,6 +145,29 @@ font-family: 'Roboto', sans-serif;
   z-index: 1;
 
 }
+/* this code was not compiled */
+.widthSet{
+  width: 100%;
+  overflow-x: hidden;
+
+}
+
+/* height setter: adds kbbq line to write div dependent on height size */
+.smallHeights{
+  display: none;
+}
+.smallHeights{
+  display: block;
+}
+@media screen and (min-height: 1000px) {
+  .bigHeights{
+    display: block;
+  }
+  .smallHeights{
+    display: none;
+  }
+}
+
 #kbbq{
   padding-top: 200px;
   position: relative;
@@ -154,43 +177,43 @@ font-family: 'Roboto', sans-serif;
 
   height:75px;
   position: relative;
-   z-index: 0 !important;
-   background-color: #a56b78;
+  z-index: 0 !important;
+  background-color: #a56b78;
 
 }
 
 .nextColor{
   height:300px;
   position: relative;
-   z-index: 99 !important;
-   background-color: rgba(107 , 120, 165, 1);
+  z-index: 99 !important;
+  background-color: rgba(107 , 120, 165, 1);
 
 }
 .nextColor2{
 
   height:500px;
   position: relative;
-   z-index: 99 !important;
-   background-color: #a56b78;
+  z-index: 99 !important;
+  background-color: #a56b78;
 
 }
 .parallax {
-    /* The image used */
-    background-image: url("main.jpg");
+  /* The image used */
+  background-image: url("main.jpg");
 
-    /* Set a specific height */
-    height: 400px;
+  /* Set a specific height */
+  height: 400px;
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .inTitle2{
   font-size: 60px;
-font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 
   padding-left: 150px;
   padding-bottom: 460px;
