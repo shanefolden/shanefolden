@@ -1,6 +1,9 @@
 .makeCent{
   text-align: center;
 }
+.makeTop{
+  z-index: 150;
+}
 
 .conTitle{
   font-size: 72px;
