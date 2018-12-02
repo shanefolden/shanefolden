@@ -69,6 +69,7 @@ textarea:-ms-input-placeholder {
 }
 .gone{
   display: none;
+  padding-left: 20px;
 
   text-align: center !important;
 }
@@ -222,7 +223,7 @@ textarea:-ms-input-placeholder {
   font-family: 'Roboto', sans-serif;
 
   padding-left: 150px;
-  padding-bottom: 460px;
+  padding-bottom: 340px;
 }
 
 

@@ -3,26 +3,26 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FFFFFF;stroke:#000000;stroke-width:19;stroke-miterlimit:10;}
-	.st1{fill:#FFFFFF;}
-	.st2{fill:none;stroke:#000000;stroke-width:19;stroke-miterlimit:10;}
+	.st0{fill:none;stroke:#000000;stroke-width:19;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;stroke:#000000;stroke-width:19;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;}
 </style>
+<g id="Layer_3">
+	<ellipse class="st0" cx="78.1" cy="448.3" rx="31.9" ry="32.8"/>
+	<ellipse class="st0" cx="303" cy="319" rx="31.9" ry="32.8"/>
+	<ellipse class="st0" cx="416.3" cy="67.4" rx="31.9" ry="32.8"/>
+	<ellipse class="st0" cx="173.1" cy="195.7" rx="31.9" ry="32.8"/>
+</g>
 <g>
-	<path class="st0" d="M35.8,363.2"/>
-	<path class="st1" d="M386.4,34.6"/>
-	<path class="st2" d="M384.5,59.8H173.1L156,59.9c-10.6,0.2-30.6,2.1-50.9,14.7C76.9,92,66,119,60.3,133.3
+	<path class="st1" d="M35.8,363.2"/>
+	<path class="st2" d="M386.4,34.6"/>
+	<path class="st0" d="M384.5,59.8H173.1L156,59.9c-10.6,0.2-30.6,2.1-50.9,14.7C76.9,92,66,119,60.3,133.3
 		c-4.4,10.8-13.5,34.2-10.2,65c3.6,33.6,19.9,56.1,26.5,65c10.3,13.8,21.8,23.5,26.5,27.2c9.9,7.9,14.9,11,18.3,12.6
 		c9.7,4.5,18.6,5.6,24.5,5.9"/>
 </g>
-<g id="Layer_3">
-	<ellipse class="st0" cx="78.1" cy="440.7" rx="31.9" ry="32.8"/>
-	<ellipse class="st0" cx="303" cy="311.4" rx="31.9" ry="32.8"/>
-	<ellipse class="st0" cx="416.3" cy="59.8" rx="31.9" ry="32.8"/>
-	<ellipse class="st0" cx="173.1" cy="188.1" rx="31.9" ry="32.8"/>
-</g>
 <g id="Layer_4">
-	<path class="st2" d="M271.2,311.4h-83.6c-41.7-2.5-41.7-2.5-41.7-2.5"/>
-	<path class="st2" d="M109.9,440.7c105.9,0,184-0.4,212.5,0c5.4,0.1,18.3,0.3,33.2-5.6c15.5-6.2,25.6-16.1,32.6-23
+	<path class="st0" d="M271.2,311.4h-83.6c-41.7-2.5-41.7-2.5-41.7-2.5"/>
+	<path class="st0" d="M109.9,440.7c105.9,0,184-0.4,212.5,0c5.4,0.1,18.3,0.3,33.2-5.6c15.5-6.2,25.6-16.1,32.6-23
 		c4.8-4.8,15.4-16,24.4-33.5c15.2-29.3,16-56.4,16.3-69.2c0.2-10.7,0.4-27.6-6.1-48.2c-3.4-10.9-8.6-26.7-22.4-41.9
 		c-19.6-21.7-43.3-27.6-50.9-29.3c-12-2.8-22.2-2.8-29.2-2.4l0,0l-103.4-0.2c-12,0.8-12,0.8-12,0.8"/>
 </g>
