@@ -164,18 +164,8 @@ textarea:-ms-input-placeholder {
 .smallHeights{
   display: block;
 }
-@media screen and (min-height: 900px) {
-  .hole{
-    color: black;
-    background-color: black;
-  }
-  .bigHeights{
-    display: block ;
-  }
-  .smallHeights{
-    display: none !important ;
-  }
-}
+
+
 
 #kbbq{
   padding-top: 80px;
@@ -194,11 +184,27 @@ textarea:-ms-input-placeholder {
 }
 
 .nextColor{
-  height:300px;
+
+  height:0px;
   position: relative;
   z-index: 99 !important;
   background-color: rgba(107 , 120, 165, 1);
 
+}
+@media screen and (min-height: 900px) {
+  .hole{
+    color: black;
+    background-color: black;
+  }
+  .nextColor{
+    300px;
+  }
+  .bigHeights{
+    display: block ;
+  }
+  .smallHeights{
+    display: none !important ;
+  }
 }
 .nextColor2{
 
