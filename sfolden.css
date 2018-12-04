@@ -5,6 +5,17 @@
   z-index: 150;
 }
 
+.time-slice {
+  display: -webkit-flex;
+  -webkit-align-items: stretch;
+}
+
+.date-time {
+  -webkit-flex-shrink: 0;
+  -webkit-flex-basis: 100px;
+}
+
+
 .conTitle{
   font-size: 72px;
   font-family: 'Roboto Condensed';
@@ -197,7 +208,7 @@ textarea:-ms-input-placeholder {
     background-color: black;
   }
   .nextColor{
-    300px;
+    height: 300px;
   }
   .bigHeights{
     display: block ;
