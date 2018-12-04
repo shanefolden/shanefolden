@@ -1,8 +1,3 @@
-$.ajax({
-    url: 'google.com',
-    type: 'GET',
-    success: function(res) {
-        // your code
 
 
 setPhoto();
@@ -125,6 +120,4 @@ window.addEventListener("scroll", function (event) {
 
 
     }
-});
-}
 });
