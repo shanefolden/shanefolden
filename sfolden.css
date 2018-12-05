@@ -1,10 +1,3 @@
-.makeCent{
-  text-align: center;
-}
-.makeTop{
-  z-index: 150;
-}
-
 .time-slice {
   display: -webkit-flex;
   -webkit-align-items: stretch;
@@ -13,6 +6,19 @@
 .date-time {
   -webkit-flex-shrink: 0;
   -webkit-flex-basis: 100px;
+}
+
+
+
+
+
+
+
+.makeCent{
+  text-align: center;
+}
+.makeTop{
+  z-index: 150;
 }
 
 
@@ -102,6 +108,7 @@ textarea:-ms-input-placeholder {
   height:140vh;
   padding-bottom: 200px;
   overflow: hidden !important;
+  -webkit-transform: translate3d(0, 0, 0);
 
   /* background: url("main.jpg")  top center ;
   background-size:cover; */
@@ -156,9 +163,13 @@ textarea:-ms-input-placeholder {
   left: -600px;
   width: 2500px;
   height: 2500px;
+  -webkit-appearance: none;
+  -webkit-box-shadow: 3px 3px 5px 700px rgba(107 , 120, 165, 1);
   box-shadow: 0 0 0 9999px rgba(107 , 120, 165, 1);
+
   border-radius: 100%;
   z-index: 1;
+  -webkit-transform: translate3d(0, 0, 0);
 
 }
 /* this code was not compiled */
