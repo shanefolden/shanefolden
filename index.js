@@ -4,6 +4,7 @@
 
 
 
+
 function fixPad() {
     var screenHeight = window.innerHeight, clientHeight = document.getElementById('adder').clientHeight, topmar = screenHeight - clientHeight;
 
@@ -15,7 +16,7 @@ var screenWidth = window.innerWidth, widthCheck = screenWidth / 2, cirWidth = pa
 document.getElementById("circle").style.left = widthCheck - cirWidth / 2 + "px";
 
 window.addEventListener("resize", function (event) {
-  window.webkitRequestAnimationFrame(function() {
+  window.RequestAnimationFrame(function() {
 
   screenWidth = window.innerWidth;
     widthCheck = screenWidth / 2;
