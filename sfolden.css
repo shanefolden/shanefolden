@@ -213,10 +213,7 @@ textarea:-ms-input-placeholder {
 
 }
 @media screen and (min-height: 900px) {
-  .hole{
-    color: black;
-    background-color: black;
-  }
+
   .nextColor{
     height: 300px;
   }
