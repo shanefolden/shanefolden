@@ -213,6 +213,10 @@ textarea:-ms-input-placeholder {
 
 }
 @media screen and (min-height: 900px) {
+
+.home{
+  padding-bottom: 0px;
+}
 /*
   .nextColor{
     height: 300px;
