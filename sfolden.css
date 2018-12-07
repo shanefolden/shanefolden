@@ -217,12 +217,14 @@ textarea:-ms-input-placeholder {
   .nextColor{
     height: 300px;
   }
+  /*
   .bigHeights{
     display: block ;
   }
   .smallHeights{
     display: none !important ;
   }
+  */
 }
 .nextColor2{
 
