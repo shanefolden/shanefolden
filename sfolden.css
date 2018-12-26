@@ -16,7 +16,7 @@
 
 .makeCent{
   text-align: center;
-  
+
 }
 .makeTop{
   z-index: 150;
@@ -54,6 +54,7 @@ input::-webkit-input-placeholder {
 
 input:-moz-placeholder { /* Firefox 18- */
   color: #707070 !important;
+  
 }
 
 input::-moz-placeholder {  /* Firefox 19+ */
