@@ -1,7 +1,7 @@
 
 /*jslint browser:true */
 
-if ( /^((?!chrome|android).)*safari/i.test(navigator.userAgent)) {alert('Hey just so you know my site is kinda broken on safari');
+if ( /^((?!chrome|android).)*safari/i.test(navigator.userAgent)) {alert('Hey just so you know my site is kinda broken on safari, chrome is a way better option');
 
 };
 
