@@ -2,4 +2,4 @@ if ( /^((?!chrome|android).)*safari/i.test(navigator.userAgent)) {alert('Hey jus
 
 };
 
-alert('ok so its kinda broken temporarily it should be fixed in like a day or so ')
+alert('ok so its kinda broken temporarily it should be fixed in like an hour or so ');
