@@ -1,8 +1,8 @@
 
 /*jslint browser:true */
 
-if ( /^((?!chrome|android).)*safari/i.test(navigator.userAgent)) {alert('site is broken on safari, redirecting to chrome');
-window.location.replace("https://tinyurl.com/y8wz8yka");
+if ( /^((?!chrome|android).)*safari/i.test(navigator.userAgent)) {alert('Hey just so you know my site is kinda broken on safari');
+
 };
 
 
