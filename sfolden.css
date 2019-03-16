@@ -91,6 +91,19 @@ textarea:-ms-input-placeholder {
   margin-right: 20vw;
 
 }
+.setConMargL{
+width: 50vw !important;
+margin: 0 auto;
+
+}
+.conpadL{
+  margin-bottom: 0px !important;
+}
+.lightsub{
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
 .gone{
   display: none;
   padding-left: 20px;
