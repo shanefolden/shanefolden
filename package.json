@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/pixelcog/parallax.js#readme",
   "dependencies": {
+    "animejs": "^3.1.0",
     "jquery": ">=1.7"
   }
 }

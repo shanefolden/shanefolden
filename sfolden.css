@@ -188,8 +188,17 @@ margin: 0 auto;
 
   border-radius: 100%;
   z-index: 1;
+}
 
-
+.box {
+  width: 100px;
+  height: 100px;
+}
+.red{
+  background-color: red;
+}
+.blue{
+  background-color: blue;
 }
 /* this code was not compiled */
 .widthSet{
