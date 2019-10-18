@@ -176,18 +176,28 @@ margin: 0 auto;
 
   padding-left: 150px;
 }
-.hole {
-  position: absolute;
-  top: -1000px;
-  left: -600px;
-  width: 2500px;
-  height: 2500px;
-  -webkit-appearance: none;
-  -webkit-box-shadow: 3px 3px 5px 700px rgba(107 , 120, 165, 1);
-  box-shadow: 0 0 0 9999px rgba(107 , 120, 165, 1);
 
-  border-radius: 100%;
-  z-index: 1;
+.indexBackground{
+  background-color: grey;
+  top: 0px !important;
+
+  height: 100vh !important;
+
+    /*//padding-top: 00px;
+  padding-bottom: 100px; */
+}
+.cropimage{
+
+    background: fixed;
+    background-size: cover;
+    border: solid red;
+
+    /*background-image: fixed; */
+
+}
+
+#image1{
+  background-image: url(main.jpg)
 }
 
 .box {
