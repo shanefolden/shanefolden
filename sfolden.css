@@ -96,6 +96,9 @@ width: 50vw !important;
 margin: 0 auto;
 
 }
+.makegray{
+  background-color: gray !important;
+}
 .conpadL{
   margin-bottom: 0px !important;
 }
@@ -103,6 +106,7 @@ margin: 0 auto;
   margin-top: -10px;
   margin-bottom: 10px;
 }
+
 
 .gone{
   display: none;
