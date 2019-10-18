@@ -17,10 +17,7 @@ function fixPad() {
 // var screenWidth = window.innerWidth, widthCheck = screenWidth / 2, cirWidth = parseInt($("#circle").css("width"));
 // document.getElementById("circle").style.left = widthCheck - cirWidth / 2 + "px";
 
-var other = anime({
 
-
-})
 
 anime({
   targets: 'div.cropimage',
