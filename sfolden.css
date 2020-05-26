@@ -232,11 +232,37 @@ margin: 0 auto;
 
 
 #kbbq{
-  padding-top: 80px;
+  padding-top: 40px;
   position: relative;
+  font-size: 60px;
   z-index: 120 !important;
   margin-bottom: 50px !important;
   padding-bottom: 50px !important;
+  background-color: #5E6472;
+  color: white;
+  letter-spacing: 2px;
+}
+.about{
+  background-color: #5E6472;
+  
+}
+.flexRow{
+  display: flex;
+}
+.list{
+  color: white;
+  font-size: 28px;
+}
+.left-half {
+
+  flex: 1;
+  padding: 1rem;
+}
+
+.right-half {
+
+  flex: 1;
+  padding: 1rem;
 }
 .filler{
 
