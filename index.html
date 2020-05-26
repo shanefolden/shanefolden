@@ -38,7 +38,7 @@
           <a class="nav-link" href="#about">About Me</a>
         </li>
         <li class="nav-item  ">
-          <a class="nav-link" href="projects.html">Projects</a>
+          <a class="nav-link" href="#projects">Projects</a>
         </li>
         <li class="nav-item  ">
           <a class="nav-link" href="lights.html">Lights Form</a>
@@ -89,8 +89,8 @@
     </div>
   </div>
 
-  <div class="projects" id="projects" style="background-color: #5E6472;">
-    <h1 class="makeCent kbbq smallHeights" id="kbbq">Projects</h1>
+  <div class="projects" id="projects" style="background-color: #222222;">
+    <h1 class="makeCent kbbq smallHeights" style="background-color: #222222;" id="kbbq">Projects</h1>
 
     <div class="row">
 
@@ -102,16 +102,19 @@
               <img src="bm.svg" alt="Blackmail logo" style="width:300px;height:300px;">
             </div>
             <div class="flip-card-back">
-              <p style="margin: 15px 5px 5px 5px;">Blackmailer.xyz is a website designed for people who struggle with
+              <p style="margin: 15px 5px 5px 15px;">Blackmailer.xyz is a website designed for people who struggle with
                 motivation to complete tasks.
                 It allows users to set a deadline for themself, and upload an embarassing picture of themself along with
                 the email address of a person they know.
+              </p>
+              <p style="margin-left: 15px; ">
                 If they fail to submit proof of completing the task, the picture gets sent out to the person,
                 effectively allowing the user to blackmail themself into completing their task. </p>
-              <br>
-              <h5>Website: <a href="https://www.blackmailer.xyz">blackmailer.xyz</a></h5>
-              <h5>Source Code: <a href="https://www.github.com/cyruscowley/blackmail">Github repo</a></h5>
-              <p>Note to self: Need to make repo public </p>
+
+              <h5 style="margin-left: 15px; ">Website: <a href="https://www.blackmailer.xyz">blackmailer.xyz</a></h5>
+              <h5 style="margin-left: 15px; ">Source Code: <a href="https://www.github.com/cyficowley/blackmail">Github
+                  repo</a></h5>
+
             </div>
           </div>
         </div>
@@ -125,14 +128,19 @@
               <img src="lights.gif" alt="Blackmail logo" style="width:280px;height:280px; margin: 30px 10px 10px 10px">
             </div>
             <div class="flip-card-back">
-              <p style="margin: 15px 5px 5px 5px;">The Lights Board is a project I made for my friends to send me messages. 
-                They submit a message through a form on the site, and it lights up on my wall. 
-               </p>
-               <p> It works by having a python script that scrapes my email for form submissions. 
-                 It then sends the message over serial to an arduino that lights up the individual LEDs. For more info, check out the README in the source code.</p>
-              <br>
-              <h6>Source Code: <a href="https://www.github.com/shanefolden/strangerthings">Github Repo</a></h6>
-              <h6><a href="https://www.shanefolden.com/lights">Submit your own message for the lights here. </a></h6>
+              <p style="margin: 15px 5px 5px 15px;">The Lights Board is a project I made for my friends to send me
+                messages.
+                They submit a message through a form on the site, and it lights up on my wall.
+              </p>
+              <p style="margin-left: 15px;"> It works by having a python script that scrapes my email for form
+                submissions.
+                It then sends the message over serial to an arduino that lights up the individual LEDs. For more info,
+                check out the README in the source code.</p>
+
+              <h6 style="margin-left: 15px;">Source Code: <a
+                  href="https://www.github.com/shanefolden/strangerthings">Github Repo</a></h6>
+              <h6 style="margin-left: 15px;"><a href="https://www.shanefolden.com/lights">Submit your own message for
+                  the lights here. </a></h6>
             </div>
           </div>
         </div>
@@ -142,20 +150,45 @@
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <h2 style="margin: 10px 0px 20px 0px;">Lights form</h2>
-              <img src="bm.svg" alt="Blackmail logo" style="width:300px;height:300px;">
+              <h2 style="margin: 10px 0px 20px 0px;">Fridaybot</h2>
+              <img src="reddit.png" alt="Reddit logo" style="width:200px;height:200px; margin-top: 40px;">
             </div>
             <div class="flip-card-back">
-              <p style="margin: 15px 5px 5px 5px;">Blackmailer.xyz is a website designed for people who struggle with
-                motivation to complete tasks.
-                It allows users to set a deadline for themself, and upload an embarassing picture of themself along with
-                the email address of a person they know.
-                If they fail to submit proof of completing the task, the picture gets sent out to the person,
-                effectively
-                allowing the user to blackmail themself into completing their task. </p>
-              <br>
-              <h5>Website: <a href="https://www.blackmailer.xyz">blackmailer.xyz</a></h5>
-              <h5>Source Code: <a href="https://www.github.com/cyficowley/blackmail">Github Repo</a></h5>
+              <p style="margin: 15px 5px 5px 15px;">
+                Fridaybot is a reddit bot I made. It parses comments made by users on reddit, and detects when a user
+                asks
+                "Is it friday yet?". It then responds with whether or not it is Friday, and encourages the user to
+                finish the week. </p>
+              <p style="margin-left: 15px; ">It was made in Python using Praw, Reddit's API wrapper. It has been active
+                for 1.5 years, and in that time has answered
+                over 100 comments, and accumulated over 4500 karma (Reddit's 'like' system). </p>
+              <h6 style="margin-left: 15px; ">Website: <a href="https://www.blackmailer.xyz">blackmailer.xyz</a></h6>
+              <h6 style="margin-left: 15px; ">Source Code: <a href="https://www.github.com/cyficowley/blackmail">Github
+                  Repo</a></h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cardCon col-lg-4 col-md-6 col-sm-12">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h2 style="margin: 10px 0px 20px 0px;">Sonshine Website</h2>
+              <img src="boatlogo.png" alt="boat logo" style="width:200px;height:200px; margin-top: 40px;">
+            </div>
+            <div class="flip-card-back">
+              <p style="margin: 15px 5px 5px 15px;">
+                This is a website I designed and wrote for Sonshine Ministries camp. It is written in HTML/CSS/JS with
+                bootstrap.
+                It is not live yet, but I am working with the camp director to get it up and running. It is currently
+                hosted through github pages.
+              </p>
+            </br>
+              <h5 style="margin-left: 15px; ">Website: <a
+                  href="https://www.blackmailer.xyz">shanefolden.github.io/sonshine</a></h5>
+              <h5 style="margin-left: 15px; ">Source Code: <a href="https://www.github.com/shanefolden/sonshine">Github
+                  Repo</a></h5>
             </div>
           </div>
         </div>
@@ -166,6 +199,81 @@
   </div>
 
   </div>
+  <div class="mainBack">
+    <h1 class="makeCent conTitle">Give me a shout.</h1>
+    <h2 class="makeCent conTitle2">Use the form to drop me a line. </h2>
+
+
+    <form action="https://formspree.io/footballshane@gmail.com" method="POST">
+
+
+
+
+      <div class="form-group conpad">
+        <input type="text" style="color: black" class="form-control setConMarg" name="name" id="nameinput"
+          placeholder="John Smith">
+      </div>
+      <div class="form-group">
+        <input type="email" style="color: black" class="form-control setConMarg" id="emailinput" name="reply_to"
+          placeholder="name@example.com">
+      </div>
+      <div class="form-group conpad2">
+        <textarea name="message" style="color: black" class="form-control setConMarg" id="exampleFormControlTextarea1"
+          placeholder="Wow Shane you're super cool we should hang out sometime" rows="3"></textarea>
+        <div class="wrapper">
+
+
+          <input type="submit" class="btn btn-secondary newbutt" value="Send">
+        </div>
+      </div>
+
+
+    </form>
+
+
+    <!--
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+          <img src="phone.svg" class="coLogos" >
+      </div>
+      <div class="col-sm">
+        <h4 class = "num">(650)-417-8821</h2>
+      </div>
+      <div class="col-sm">
+        <img src="mail.svg" class="coLogos">
+      </div>
+      <div class="col-sm">
+      <h4 class = "email">footballshane@gmail.com</h2>
+      </div>
+    </div>
+  </div> -->
+    <p class="makeCent botcon">Shane Folden | 650-417-8821</p>
+
+    <p class="makeCent botcon2">footballshane@gmail.com</p>
+
+    <div style="width: 100%; text-align:center;">
+      <div style="margin:auto; display: inline-block;">
+        <a href="https://www.linkedin.com/in/shanefolden" class="td" target="blank">
+          <img src="linkedLogo.svg" id="leftLogo" class="lilo td" alt="instagram logo">
+
+          <a href="https://www.github.com/supercarlos297" class="td" target="blank">
+            <img src="gitLogo.svg" class="ghlo td" alt="instagram logo">
+          </a>
+          <a href="https://www.instagram.com/shanefolden" class="td" target="blank">
+            <img src="instaLogo.svg" id="logo" class="iglo td" alt="instagram logo">
+          </a>
+          <a href="https://www.facebook.com/shanefolden29" class="td" target="blank">
+            <img src="fbLogo.svg" class="fblo td" alt="facebook logo">
+          </a>
+          <a href="https://www.youtube.com/channel/UC0yCxsV0D_td1BH6uZHe6-Q" class="td" target="blank">
+            <img src="ytLogo.svg" id="rightLogo" class="ytlo td" alt="instagram logo">
+          </a>
+      </div>
+    </div>
+
+  </div>
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -186,15 +294,14 @@
 
 </html>
 <style>
- 
   .flip-card {
     background-color: transparent;
     width: 300px;
     height: 400px;
     perspective: 1000px;
-    
-    
-    margin:auto;
+
+
+    margin: auto;
     /* Remove this if you don't want the 3D effect */
   }
 
@@ -202,8 +309,8 @@
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 30px;
-    
-    
+
+
   }
 
   /* This container is needed to position the front and back side */
@@ -244,5 +351,6 @@
     background-color: white;
     color: black;
     transform: rotateY(180deg);
+    text-align: left;
   }
 </style>
