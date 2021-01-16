@@ -9,6 +9,7 @@
 }
 .lightsTitle{
   padding-top: 20px;
+  text-align: center;
 }
 .littit2{
   padding-bottom: 10px;
@@ -334,6 +335,7 @@ margin: 0 auto;
 
 .mainBack{
   background-color: gainsboro;
+  width: auto;
 }
 
 .iglo{
